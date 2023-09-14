@@ -192,4 +192,89 @@ By ***Yuvraj Singh (210050172)***
 
 ## 4.3 INDIAN MATERIALISM, NATURALISM AND SCEPTICISM
 
+- Major parts of Indian Philosophy has been *this wordily, naturalistic and rational* and the roots of **skepticism** in India go back a long way.
+- *Indian philosophy can hardly be characterized as spiritual in character* - Daya Krishna.
+- There are elements of *materialism, scepticism, positivism, atheism and hedonism* in Indian thought.
+> - **Materialism -** Ultimate constituents of reality are material/physical bodies, elements/processes.
+> - **Positivism -** Commitment to empirical methods & rejection of metaphysical tradition.
+> - **Atheism -** Affirms the non-existence of God.
+> - **Hedonism -** Pleasure is the highest good & one should seek pleasure and avoid pain.
+
+### Skepticism -
+- Etymologically - *SKEPSIS* > examination/enquiry/consideration.
+- It is a critical attitude which systematically *questions the notion* that absolute knowledge and certainty are possible.
+- Opposed to *Dogmatism* > which maintains certain set of +ve statements as authoritative and true.
+- *Is there any diff. between knowing and dreaming* - Zhuang Zhou (Chuang Tzu).
+- Skepticism => Assume nothing at all. i.e. *an object appears white or black, not that it is white or black.*
+
+### 4.3.1 Charvaka/Lokayata(700 BC -)
+- Etymologically - *लोकायत* = *लोकेषु आयतः* > Philosophy of the people.
+- Also means philosophy of this-worldliness or materialism.
+- It rejected all those views which are beyond the experience of human life here and now.
+
+### 4.3.2 References of Charvaka
+- The *Barhaspatya/Lokayata-Sutras* as identified by the RigVeda are no longer in existence but 54 sutras by *Brihaspati* were collected by *Dakshinaranjan Shastri*.
+- *Tattvopaplavasingha(तत्त्वोपप्लवसिंह)* by *Jayarashi Bhatta* is considered a work of old charvaka by Sukhalaji Sanghavi but is considered extremely skeptic by others.
+- Info. about Charvaka views may be gathered from criticism against it.
+- Also, considerable material can be found in:
+  - Chhandogya Upanishad
+  - Mahabharata (Shantiparva & Shalyaparva), etc.
+
+### 4.3.3 Main Tenets of Charvaka Philosophy
+
+#### 1. Naturalism, No Causality(स्वभव)
+  - A thing by its nature (svabhava) comes into existence at a particular time without any cause. > **‘effect’ does not depend on any cause**.
+  - Causality is an imaginary relation between antecedents and consequents, which are perceived together on many occasions.
+  - The sequence of two events perceived in the past on numerous occasions may fail in future under unforeseen circumstances.
+#### 2. Perception: the only means of Knowledge, Denial of Inference(प्रत्यक्ष)
+  - Perception gathered through 5 sense organs is either external or internal.
+  - Internal perception depends on external perception. i.e *Manas* depends on external sense organs.
+  - Charvakas advocate naive **realism** and **empricism**.
+> - **Realism-** asserts that the objects of knowledge exist independently of the minds.
+> - **Empiricism-** asserts that all knowledge is ultimately based on experience.
+
+#### 3. Materialism
+  - World is composed of 4 elements: *Earth, Water, Air & FIre* and the existence of 5th *Ether* is denied as it is not perceived.
+  - Consciousness is produced by the material elements.
+
+#### 4. No Soul/Atman
+  - The soul/atman is only the body endued with consciousness.
+  - Soul does not exist apart from the body.
+#### 5. No Pre-existence and Future
+  - No pre-existence of soul before birth and no future existence after death.
+#### 6. No Heaven and Hell
+  - Heavenly happiness is only an imagination.
+  - There is no other hell than bodily pain.
+#### 7. No God
+#### 8. Death is Moksha
+  - Meaning of Moksha/liberation is the end of suffering. With death all sufferings come to an end.
+#### 9. Hedonism
+  -  Charvakas reject *Dharma & Moksha* as *Purusharthas* and believes that *Kama*(Pleasure) is the supreme end & *Artha*(Wealth) is a means to it.
+  -  *Eat, drink and make merry, for tomorrow you will die* #LiveInHappiness #BodilyPleasureIsCertain #HeavenIsUncertain
+  - However, *Vastyayana*, the author of **Kama Sutra**, makes a distinction between *higher pleasure* and *lower pleasure*. He includes *Kama, Artha and Dharma* (Trivargika) also in the list of *purusharthas*.
+  - 64 Fine Arts(*Kala*) which gives refines pleasure.
+
+### 4.3.4 Critical Appreciation of the Charvaka Philosophy
+- Common to *Egoistic Hedonism of Aristippus* > Emphasis on individual happiness and sensual pleasures.
+- Much in common with *Epicureanism* > ‘Innate’ human attitude is the pursuit of pleasure as the only positive value.
+#### Contribution of Charvaka -
+  - Helped Indian Philosophy from becoming too dogmatic and religious.
+  - Rationality took upper hand and superstitions and blind faith were challenged.
+  - Provoked the keenest controversy and intellectual pursuit on Indian soil.
+
+### 4.3.5 Other Sceptics of Indian Thought
+- **Sanjaya(6th Century BC)** proposed 4 negative propositions in order to avoid errors in philosophical discourse.
+  - A is not B
+  - A is not ~B
+  - A is not (B.~B)
+  - A is not ~(B.~B)
+- He never made any positive statement about anything. He differed from the Absolutism/dogmatism, and resorted to negative pronouncements without asserting an ultimate reality that transcends empirical description. 
+- **Buddha** disregarded all speculations as he found them useless and irrelevant to solve the practical problem of human suffering.
+- **Nagarjuna(150 AD)** was skeptical of all philosophical standpoints. He dismantled theoretical positions in a methodically logical manner wherever he found them.
+- **Jayarasi Bhatta(800-840AD)** author of *Tattvopaplava-siṁha*, claimed that it is not possible to arrive at true knowledge with standard means recognized by the traditionally adopted model of cognitive procedures (pramāṇa) in Indian epistemology.
+
+---
+
+## MODERN PHILOSOPHY
+
 
