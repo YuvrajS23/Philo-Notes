@@ -327,9 +327,9 @@ By ***Yuvraj Singh (210050172)***
 > - 5 Substance Doctrine > anything = substance/attribute of a substance. Attributes change and are subjective whereas substance remain one. Thus, Idea of substance has more formal reality than an attribute. Idea of Infinite Substance has more objective reality than idea of finite substance & these are the only things that can cause an idea to emerge in my mind. Therefore, my idea of infinite substance is real.
 > - 6 says that the source of idea is God as more perfect cannot be derived from less perfect.
 
-  ##### 3. Theory of Innate(Apriori) Ideas:
+##### 3. Theory of Innate(Apriori) Ideas:
   - By innate idea or knowledge, Descartes means that the ideas or truth impressed upon the mind = principles which the soul/mind finds itself, or the native capacity of the soul/mind to produce such knowledge without the help of the senses.
-- ##### 4. Mind (Soul)and Body (Matter)Problem (Cartesian Dualism):
+##### 4. Mind (Soul)and Body (Matter)Problem (Cartesian Dualism):
   - Reality is made up of two heterogeneous elements: 
   - **1. Mind or Soul-** Mental, Spiritual, thinking substance.
   - **2. Body or Matter-** Physical, Spatial, Exteneded Substance.
