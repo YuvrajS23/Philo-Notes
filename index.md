@@ -275,6 +275,72 @@ By ***Yuvraj Singh (210050172)***
 
 ---
 
-## MODERN PHILOSOPHY
+## 5. MODERN PHILOSOPHY
+
+##### 5.1 Rationalism (Rene Descartes)
+##### 5.2. Empiricism (John Locke)
+##### 5.3. Idealism (George Berkeley)
+##### 5.4. Scepticism (David Hume)
+##### 5.5. Critical examination of reason (*ratio*): Immanuel Kant
+
+- History of Western Philosophy from 17th through 19th century beginning with Rene Descartes’ *Meditations on First Philosophy*, and ending with Immanuel Kant's *Critique of Pure Reason, Critique of Practical Reason and Critique of Judgment*.
+
+### 5.1 Rationalism
+- **Rationalism v Empiricism:** Rationalism > reason whereas Empiricism > experience as the source & norm of knowledge.
+- Rationalism is a philosophical doctrine that asserts that the truth can best be *discovered by reason and factual analysis*, rather than faith, dogma or religious teaching.
+
+#### Rene Descartes(1596-1650)/Cartesius
+  - French, Founder of Modern Philosophy, Father of Modern Mathematics
+  - He wanted to use reason alone to establish solid and permanent truth. *Mathematics must be the guide to clear the confusion and uncertainties of philosophy*.
+  ##### Two Mental Operations of Mathematics:
+  - **Intuition:** Intuition is the understanding without apparent effort. It is the act by which the mind perceives the agreement or disagreement of two ideas.
+  - A theory can be stable not only due to its axioms but also due to a specific intuition.
+  - **Deduction:** Logical Inference derived from self-evident propositions.
+  - Descartes was convinced that philosophy when built using intuition & deduction results at a system of absolute truth.
+  - Acc. to Descartes, **Philosophy = Tree, Metaphysics = Root, Trunk = Physics, All Other Sciences = Branches.**
+  ##### Points of Descartes:
+  ##### 1. Cartesian Methodical Doubt-
+  - To reach certainity, first overthrow all beliefs and doubt everything.
+  - Since, you are doubting, One thing is certain that you doubt/think. This leads to **Cogito, ergo sum** > ***I think, therefore I am(I exist)***.
+  - I intuit in a concrete case the impossibility of my thinking without my existing.
+  - I am something which thinks, then what am I? A thing which thinks, then what is a thing which thinks? It is a thing which doubts, understands, affirms, denies, wills, refuses, and which also imagines and feels. Thus, *Cogito, ergo sum* was marked as the starting point of metaphysics.
+
+> **Aristotle & the Four Causes**
+> - What causes motion and change in the universe?
+> - **(i) Formal Cause:(Idea)** The capacity of the human genes (genome) to accompany the existence of a human being presumes that the capacity to be a human being pre-exists the human being. i.e. blueprint or plan.
+> - **(ii) Material Cause:(Matter)** Matter out of which a thing is made.
+> - **(iii) Efficient Cause:(Agency)** Agency by which a thing comes into existence. {Potter - Pot}
+> - **(iv) Final Cause:(Goal/Purpose)** The goal or purpose of a thing, its function or potential. {Pen - Writing}
+
+  ##### 2. God?
+  - **Descartes' Proofs of God.s Existence:**
+  - 1) I think, therefore I am.
+  - 2) I cannot be mistaken about the ideas that I have.
+  - 3) There can never be more objective reality in the effect (i.e., the idea) than there is formal reality in the cause (i.e., object of the idea).
+  - 4) I have an idea of perfection or infinite substance.
+  - 5) My idea of perfection is real.
+  - 6) The only possible formal cause of that idea is infinite substance. Therefore, God must exist.
+> **Explication:** 
+> - 1 and 2 are certain. 
+> - 3 rests on the *Principle of Sufficient Reason* i.e. Reality of Cause >= Reality of Effect. 
+> - 4 is Descartes' innate idea. 
+> - 5 Substance Doctrine > anything = substance/attribute of a substance. Attributes change and are subjective whereas substance remain one. Thus, Idea of substance has more formal reality than an attribute. Idea of Infinite Substance has more objective reality than idea of finite substance & these are the only things that can cause an idea to emerge in my mind. Therefore, my idea of infinite substance is real.
+> - 6 says that the source of idea is God as more perfect cannot be derived from less perfect.
+
+  ##### 3. Theory of Innate(Apriori) Ideas:
+  - By innate idea or knowledge, Descartes means that the ideas or truth impressed upon the mind = principles which the soul/mind finds itself, or the native capacity of the soul/mind to produce such knowledge without the help of the senses.
+- ##### 4. Mind (Soul)and Body (Matter)Problem (Cartesian Dualism):
+  - Reality is made up of two heterogeneous elements: 
+  - **1. Mind or Soul-** Mental, Spiritual, thinking substance.
+  - **2. Body or Matter-** Physical, Spatial, Exteneded Substance.
+  - This is called the *Cartesian psycho-physical
+dualism*.
+
+---
+
+### 5.2 Empiricism
+
+
+
 
 
