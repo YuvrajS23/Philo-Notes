@@ -388,3 +388,31 @@ dualism*.
 
 ### 5.3 Idealism
 
+- Idealism is theory that upholds everything exists is mental, that is, everything is either a collection of ideas, or a mind thinking those ideas.
+- Idealists use the word “idea” to mean any kind of mental thing: 
+  1. Sensations- The colours you see, the sounds you hear.
+  2. Concepts- The abstract idea of something.
+  3. Thoughts- Believes
+  4. Imagination and Memory
+- Idealism is any theory positing the primacy of soul, mind, or language over matter.
+#### George Berkeley(1685-1753)
+- Best known for his motto, *esse est percipi*, "to be is to be perceived". He was an immaterialist.
+- He believed that ordinary physical objects are composed solely of ideas, which are inherently mental.
+#### Main Argument: 
+  - He attacked materialism in his *A Treatise Concerning the Principles of Human Knowledge.*
+  - Berkeley presented the following argument.
+  1. We perceive ordinary objects.
+  2. We perceive only ideas.
+  3. Ordinary objects are ideas.
+
+#### Esse est percipi(To be is to be perceived)
+- Everybody will agree that our thoughts and the pictures of imagination do not exist outside mind. Thus, existence (to be) is identical with perception.
+- Things therefore have no existence without a mind which sees or knows it.
+
+#### Unperceived objects
+- What about the objects which no one is looking at, listening to, thinking about?
+- When every one of us leaves this class room, does it just disappear? Then when we come next, it reappears?
+- Berkeley’s answer to that was: things we don’t perceive, or think about are kept in existence in the mind of God. => God’s mind is infinite, unlimited.
+- When we see and hear etc. something, we simply perceive a small little part of God’s mind.
+
+---
