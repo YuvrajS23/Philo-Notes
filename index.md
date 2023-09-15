@@ -313,7 +313,7 @@ By ***Yuvraj Singh (210050172)***
 > - **(iv) Final Cause:(Goal/Purpose)** The goal or purpose of a thing, its function or potential. {Pen - Writing}
 
   ##### 2. God?
-  - **Descartes' Proofs of God.s Existence:**
+  - **Descartes' Proofs of God's Existence:**
   - 1) I think, therefore I am.
   - 2) I cannot be mistaken about the ideas that I have.
   - 3) There can never be more objective reality in the effect (i.e., the idea) than there is formal reality in the cause (i.e., object of the idea).
