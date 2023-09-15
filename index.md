@@ -339,5 +339,52 @@ dualism*.
 ---
 
 ### 5.2 Empiricism
+- Origin of all knowledge is sense experience.
+- Etymologically - *Empeirismos* > test/trial/experiment.
+- *Empiricists also deny* the implication of the corresponding *Innate Concept thesis* that we have innate ideas in the subject area. Sense experience is our only source of ideas
 
-- 
+#### John Locke(1632-1704)
+- Acc. to Locke, Philosophy = true knowledge & it is necessary to examine our abilities.
+- He refutes the doctrine of innate ideas. *There is no inborn truth at all.*
+
+#### 1. Tabula Rasa(Clean Slate)
+- The mind at first is a tabula rasa(dark chamber, empty cabinet, white paper) i,e. without any ideas.
+- Where the white paper gets its reason and knowledge from - **Experience**.
+- All our knowledge is founded on, and ultimately derived from, experience.
+#### 2. Camara Obscura(a darkened room)
+- Human mind is like a *camara obscura*, darkened room, into which bright pictures of what lies outside must be conveyed.
+- Observing children(*Pedophile LOL*) reveals that their capacity to think develops only gradually, as its necessary components are acquired one by one.
+- Everything that occurs to us either arrives directly through experience, or is remembered from some previous experience, or has been manufactured from the raw materials provided solely by experience. In short, Experience.
+#### 3. Sensation and Reflection
+- The two sources of our ideas are:
+  1. **Sensation:** external sense, through which the mind is furnished with sensible thoughts.  
+  2. **Reflection:** internal sense, which supplies the mind with ideas of its own operations.
+#### 4. Simple Ideas and Complex Ideas
+- Acc. to Locke, Ideas => *whatsoever the mind directly apprehends, through perception.* Experience is the fountain of all ideas.
+- Sensation is the chief source of ideas.
+- The ideas received by mind are *simple ideas*, which the mind has the power to repeat, compare, and combine in endless variety, thus to make *new complex ideas*.
+- No understanding has the power to frame or invent a new simple idea.
+- Senses > Colour, taste; More than 1 senses > figure, rest; Reflection > Its own idea observation; Both Sensation and Reflection > pleasure, pain.
+#### 5. Primary and Secondary Qualities
+- *Primary qualities*, such as solidity, extension, figure, motion or rest, and number, are inherent to objects and are inseparable from them.
+- *Secondary qualities*, like color, sound, and taste, exist only in our perception and are produced by the causal power of primary qualities. They are not inherent to the objects themselves but rather the effects of how our senses interact with these objects.
+- Secondary qualities are perceived by a single sense (e.g., color by sight), and they depend on the sensory apparatus responding to the dispositional properties of objects.
+- Locke argued that our belief in the existence of secondary qualities in nature is a result of the ideas produced in our minds by the primary qualities of objects.
+#### 6. Operations of Mind
+- The mind can, by its own power, put together these simple ideas and make new complex ideas.
+- It can bring two ideas together, view them together, and thereby frame ideas of relations.
+- It can separate ideas from all other ideas which accompany them in their real existence. This operation is called abstraction.
+#### 7. Ideas of Modes, Substances and Relations
+- Complex ideas can be categorized under three heads:
+  1. **Modes:** refer to complex ideas that are invariably conceived as the features of something else, which are never capable of existing independently.
+  - E.g. Triangle, Gratitude, Murder.
+  - Two types of modes are:
+  - **a. Simple Mode-** is a complex idea all of whose component parts are variations or combinations of a single simple idea. e.g. A dozen, Space, etc.
+  - **b. Mixed Modes-** are complex ideas whose components include several distinct simple ideas, often including those derived from different experiential sources. e.g. Beauty, Human Activities.
+  2. **Substances:** are also complex ideas put together by mind and is a collection of simple ideas capable of existing independently.
+  3. **Relation:** are complex ideas derived from the mental operation of comparing distinct ideas without thereby combining them together into an entirely new whole. e.g. parent/child or cause/effect.
+
+---
+
+### 5.3 Idealism
+
