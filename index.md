@@ -416,3 +416,8 @@ dualism*.
 - When we see and hear etc. something, we simply perceive a small little part of God’s mind.
 
 ---
+
+#### To be Continued...
+
+## 6. Logic
+
