@@ -417,7 +417,53 @@ dualism*.
 
 ---
 
-#### To be Continued...
+#### 5.4 Not in Quiz 2 To be Continued...
+
+### 5.5 Modern Philosphy - Immanuel Kant
+### A. Critical examination of a priori and a posteriori
+- *Meditations on First Philosophy* - Rene Descartes
+- Immanuel Kant - *Critique of Pure Reason, Critique of Practical Reason and Critique of Judgment (or Critique of the Power of Judgment)*
+
+#### 1. Synthesis of Rationalism and Empiricism
+  - The fundamental idea of Kant’s “critical philosophy” is *human autonomy*.
+  - He argues that human understanding is the source of all the general laws of nature that in itself structures our experience.
+  - Scientific knowledge, morality, and religious belief are mutually consistent and secure because they all rest on the same foundation of human autonomy.
+  - He responded to Empiricists by arguing that *mind is not a blank slate* and the Rationalists by rejecting their notion that pure, a priori knowledge of a mind-independent world was possible.
+  - He believed that Reason itself is structured with forms of experience and categories that in itself gives structure to empirical experience.
+#### 2. Transcendental idealism
+  - In *Critique of Pure Reason*, Kant argued that human beings experience only appearances (phenomena), not things in themselves (noumena).
+  - **Phenomena -** a thing that appears or is perceived.
+  - **Noumenon -** imperceptible to the material senses.
+  - **Transcendental Idelism -** we must distinguish between appearances and things in themselves, that is, between that which is mind-dependent and that which is not.
+#### 3. Analytic and Synthetic Statements
+  - **Analytic Statement:** Predicate in Subject. E.g. Brothers are male. True by virtue of meaning.
+  - **Synthetic Statement:** Predicate not in Subject. E.g. Brothers are good. Depends on world and needs tp be verified.
+#### 4. The a priori and a posteriori AND Analytic and Synthetic Distinctions
+  - Apriori - We know something by just sitting and thinking.
+  - Aposteriori - We know something by going out in the world and sensing things.
+  - **Analytic a priori proposition:** knowledge claims which are “self-contained.” These are the sort of judgments that you can make in and of itself without reference to anything “external.” E.g Square has 4 sides.
+  - **Synthetic a posteriori proposition:** Judgements needs to be verified. E.g. The cat is on the mat.
+#### 5. Synthetic a priori
+  - Essential bridge between rationalist and empiricist epistemology.
+  - Claims like Newton’s, “the quantity of matter is always preserved,” and the geometer’s claim, “the angles of a triangle always add up to 180 degrees” are known a priori, but they cannot be known merely from an analysis of the concepts of matter or triangle. We must “go outside and beyond the concept. . . joining to it a priori in thought something which I have not thought in it.
+  - *A synthetic a priori claim constructs upon and adds to what is contained analytically in a concept without appealing to experience.*
+  - Ex: “5+7 = 12” because 12 is not contained in 5+7.
+### B. Categorical Imperative
+#### 1. Practical Reason and “Ought” + Duty
+  - Kant is **deontologist** which means he believed in a sense of “duty” which one should follow on all occasions.
+  - He split reason into two categories - **a. Theoretical/Pure Reason** (covering Maths and Science) and **b. Practical Reason***(Superior as it led to people becoming morl/good people)*
+  - Practical reason is also grounded in a sense of “ought”. In other words, people can become aware of duty in each case by careful consideraation and weighing of the facts.
+  - **Ought implies can**
+#### 2. Categorical Imperative and Hypothetical Imperative
+  - Introduced in Kant's book *Groundwork of the Metaphysics of Morals.*\
+  - Kant thought that human beings occupy a *special place in universe* and that *morality* can be summed up in one, *ultimate commandment* of reason, or imperative, from which all duties and obligations derive.
+  - A hypothetical imperative would compel action in a given circumstance: *If I wish to satisfy my thirst, then I must drink something.*
+  - A categorical imperative would denote an **absolute, unconditional requirement** that exerts its authority in all circumstances, both required and justified as an end in itself.
+  - Ex. H - If you obey God then you will get to heaven. C - Obey God! It is your duty.
+#### 3. Merit of Categorical Imperative
+  - Moral actions cannot be stated as hypothetical imperative as it then depends on the subjective desires of the actor rendering it powerless.
+  - The nature of a moral proposition must necessarily mean that a particular act or kind of act ought/ought not to be carried out under any circumstance. => Categorical Imperative.
+
+---
 
 ## 6. Logic
-
