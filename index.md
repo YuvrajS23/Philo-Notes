@@ -536,4 +536,21 @@ dualism*.
 ---
 
 ## 7. Metaphysics
-- 
+- Metaphysics is the branch of philosophy which is concerned with the ultimate nature of reality.
+- In Aristotle’s words, metaphysics is “the study of ***being qua being***” or ‘*being understood as being.*’
+- The study of being qua being concerns the most general class of things, namely, everything that exists and it studies them under their most general aspect, namely, as things that exist.
+- *Ontology is that part of philosophy which attempts to discover the essential features of all that exists, independent from actual experience.*
+
+### 7.1 Causation/Causality
+- The notion of cause is associated with the idea of something’s producing or bringing about something else (its effect).
+- Aristotle described the doctrine of four causes. 
+- However, modern discussions tend to treat causality as exclusively or primarily a relation between events.
+- Causality appears to be an asymmetric relation (if A caused B, then B did not cause A).
+
+### 7.2 Universals and Particulars
+#### Universals
+  - Universals are the supposed referents of general terms like ‘red’ , ‘table’ and ‘tree’ understood as entities distinct from any of the particular things describable by those terms.
+#### Particulars
+  - Particulars are normally contrasted with universals, the former being instances of the latter – as a particular apple is an instance of the universal, or kind, apple.
+#### Nominalism
+  - Nominalism is a doctrine which denies the existence of universals but upholds any particulars
