@@ -467,3 +467,73 @@ dualism*.
 ---
 
 ## 6. Logic
+### 1. What is Logic?
+- Methods to ditinguish good reasoning from bad. Science of Reasoning.
+
+### 2. Basic Terms
+- **Inference(अनुमान)-** Process by which one propositon is arrived on the basis of one or more other propositions.
+- **Proposition(तर्क-वाक्य)-** Either true or false i.e can be asserted or denied. Different from sentences and is center to logic and independent of language.
+- **Argument(युक्ति)-** An argument is a group of propositions of which one(conclusion) is claimed to follow from others(premises).
+- **Premises(आधार-वाक्य)-** Propositions which provide support or reasons for accepting the conclusion are the premisses of the argument.
+- **Conclusion(निष्कर्ष)-** Proposition that is affirmed on the basis of the other propositions of the argument.
+
+### 3. Deduction and Induction
+- Arguments are traditionally divided into 2 different types:
+1. **Deductive Argument(निगमनात्मक युक्ति)-** Premise provides conclusive grounds for the conclusion. Can be classified as valid or invalid depending on the reasoning.
+2. **Inductive Arguments(आगमनात्मक युक्ति)-** Premises provide some support for the conclusion. Cannot be classified as valid or invalid.
+
+### 4. Truth and Validity
+- **Truth and Falsehood** are predicated of propositions.
+- **Validity and Invalidity** belong to Deductive Arguments.
+
+### 5. Fallacy
+- **Error in Reasoning**
+#### 5.1 The Argument from Ignorance (Argumentum ad ignoratiam):
+  - When argued that a proposition is true as it is not proved false and vice versa. E.g. Accused in Criminal Court
+#### 5.2 The Appeal to Inappropriate Authority (Argumentum ad verecundiam):
+  - When the appeal is made to parties having no legitimate claim to authority in the matter at hand. E.g. Virat Kohli selling MRF Tyres.
+#### 5.3 Complex Question:
+  - Asking a question in such a way as to presuppose the truth of some conclusion buried in that question. E.g. Lawyers in Courts use these.
+#### 5.4 Argumentum ad Hominem:
+  - Fallacious attack in which the thrust is directed, not a conclusion, but at the person who asserts or defends it.
+#### 5.5 Begging the Question (Petitio Principii):
+  - When one assumes in the premisses the truth of what one seeks to establish in the conclusion, the fallacy of begging the question is committed. E.g. Bible => God & God said Bible so it is true.
+#### 5.6 The Appeal to Emotion (Argumentum ad Populum):
+  - It is fallacious because it replaces the laborious task of presenting evidence and rational argument with expressive language and other devices calculated to excite enthusiasm, excitement, anger, or hate. E.g. Hitler
+#### 5.7 The Appeal to Pity (Argumentum ad Misericordiam):
+  - Special case of appeal to emotion, in which the compassion, sympathy and altruism of the audience are the special emotions appealed to. E.g. Court proceedings
+
+### 6. Categorical Propositions
+
+#### 6.1 Deductive Argument:
+  - Premise provides conclusive grounds for the conclusion. Can be classified as valid or invalid.
+#### 6.2 Categorical propositions:
+  - Propositions dealing with *Class(वर्ग)*.
+  - **Class** is a collection of objects having some specified characteristics in common. Various ways in which classes may be related:
+  1. **Included/Contained-** A is a subset of B.
+  2. **Parially Contained-** A intersection B not equals phi.
+  3. **No members in Common-** A intersection B = phi.
+
+#### 6.3 Four Different Standard Forms of Categorical Propositions:
+  - **Universal Affirmative Proposition:(A)** All S is P. S subset of P.
+  - **Universal Negative Proposition:(E)** No S is P. S intersection P = phi.
+  - **Particular Affirmative Proposition:(I)** Some S is P. S interesection P not equals phi.
+  - **Particular Negative Proposition:(O)** Some S is not P. Not S intersection P not equals phi.
+  
+### 7. Categorical Syllogism
+- **Syllogism** is a deductive argument in which a conclusion is inferred from two premises.
+- **Categorical Syllogism** is a deductive argument containing 3 categorical propositions in which each term occurs in exactly 2 propositions.
+- **Major Term:** Predicate Term of Conclusion
+- **Minor Term:** Subject Term of Conclusion
+- **Middle Term:** Term that does not occur in the Conclusion.
+- **Major Premise and Minor Premise** are premise containing major and minor term respectively.
+- **Mood** Three Letters indicating the types of categorical propositions.
+
+### 8. Induction
+- Premises provide some support for the conclusion. Cannot be classified as valid or invalid.
+- Most commonly used type is argument by analogy. E.g. Life on Earth predicts Life on other planets of Solar System by some probability.
+
+---
+
+## 7. Metaphysics
+- 

@@ -1,371 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>index.md</title>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-
-<style>
-/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Philosophy Notes</title>
+        <style>
+/* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-body {
-	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
-	font-size: var(--vscode-markdown-font-size, 14px);
-	padding: 0 26px;
-	line-height: var(--vscode-markdown-line-height, 22px);
-	word-wrap: break-word;
-}
-
-#code-csp-warning {
-	position: fixed;
-	top: 0;
-	right: 0;
-	color: white;
-	margin: 16px;
-	text-align: center;
-	font-size: 12px;
-	font-family: sans-serif;
-	background-color:#444444;
-	cursor: pointer;
-	padding: 6px;
-	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
-}
-
-#code-csp-warning:hover {
-	text-decoration: none;
-	background-color:#007acc;
-	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
-}
-
-body.scrollBeyondLastLine {
-	margin-bottom: calc(100vh - 22px);
-}
-
-body.showEditorSelection .code-line {
-	position: relative;
-}
-
-body.showEditorSelection .code-active-line:before,
-body.showEditorSelection .code-line:hover:before {
-	content: "";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: -12px;
-	height: 100%;
-}
-
-body.showEditorSelection li.code-active-line:before,
-body.showEditorSelection li.code-line:hover:before {
-	left: -30px;
-}
-
-.vscode-light.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.15);
-}
-
-.vscode-light.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.40);
-}
-
-.vscode-light.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-.vscode-dark.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.4);
-}
-
-.vscode-dark.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.60);
-}
-
-.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-.vscode-high-contrast.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 160, 0, 0.7);
-}
-
-.vscode-high-contrast.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 160, 0, 1);
-}
-
-.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:focus,
-input:focus,
-select:focus,
-textarea:focus {
-	outline: 1px solid -webkit-focus-ring-color;
-	outline-offset: -1px;
-}
-
-hr {
-	border: 0;
-	height: 2px;
-	border-bottom: 2px solid;
-}
-
-h1 {
-	padding-bottom: 0.3em;
-	line-height: 1.2;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-}
-
-h1, h2, h3 {
-	font-weight: normal;
-}
-
-table {
-	border-collapse: collapse;
-}
-
-table > thead > tr > th {
-	text-align: left;
-	border-bottom: 1px solid;
-}
-
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td {
-	padding: 5px 10px;
-}
-
-table > tbody > tr + tr > td {
-	border-top: 1px solid;
-}
-
-blockquote {
-	margin: 0 7px 0 5px;
-	padding: 0 16px 0 10px;
-	border-left-width: 5px;
-	border-left-style: solid;
-}
-
-code {
-	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-	font-size: 1em;
-	line-height: 1.357em;
-}
-
-body.wordWrap pre {
-	white-space: pre-wrap;
-}
-
-pre:not(.hljs),
-pre.hljs code > div {
-	padding: 16px;
-	border-radius: 3px;
-	overflow: auto;
-}
-
-pre code {
-	color: var(--vscode-editor-foreground);
-	tab-size: 4;
-}
-
-/** Theming */
-
-.vscode-light pre {
-	background-color: rgba(220, 220, 220, 0.4);
-}
-
-.vscode-dark pre {
-	background-color: rgba(10, 10, 10, 0.4);
-}
-
-.vscode-high-contrast pre {
-	background-color: rgb(0, 0, 0);
-}
-
-.vscode-high-contrast h1 {
-	border-color: rgb(0, 0, 0);
-}
-
-.vscode-light table > thead > tr > th {
-	border-color: rgba(0, 0, 0, 0.69);
-}
-
-.vscode-dark table > thead > tr > th {
-	border-color: rgba(255, 255, 255, 0.69);
-}
-
-.vscode-light h1,
-.vscode-light hr,
-.vscode-light table > tbody > tr + tr > td {
-	border-color: rgba(0, 0, 0, 0.18);
-}
-
-.vscode-dark h1,
-.vscode-dark hr,
-.vscode-dark table > tbody > tr + tr > td {
-	border-color: rgba(255, 255, 255, 0.18);
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
 }
 
 </style>
-
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
-/* Tomorrow Theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-/* Original theme - https://github.com/chriskempson/tomorrow-theme */
-
-/* Tomorrow Comment */
-.hljs-comment,
-.hljs-quote {
-	color: #8e908c;
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
 }
 
-/* Tomorrow Red */
-.hljs-variable,
-.hljs-template-variable,
-.hljs-tag,
-.hljs-name,
-.hljs-selector-id,
-.hljs-selector-class,
-.hljs-regexp,
-.hljs-deletion {
-	color: #c82829;
-}
-
-/* Tomorrow Orange */
-.hljs-number,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-literal,
-.hljs-type,
-.hljs-params,
-.hljs-meta,
-.hljs-link {
-	color: #f5871f;
-}
-
-/* Tomorrow Yellow */
-.hljs-attribute {
-	color: #eab700;
-}
-
-/* Tomorrow Green */
-.hljs-string,
-.hljs-symbol,
-.hljs-bullet,
-.hljs-addition {
-	color: #718c00;
-}
-
-/* Tomorrow Blue */
-.hljs-title,
-.hljs-section {
-	color: #4271ae;
-}
-
-/* Tomorrow Purple */
-.hljs-keyword,
-.hljs-selector-tag {
-	color: #8959a8;
-}
-
-.hljs {
-	display: block;
-	overflow-x: auto;
-	color: #4d4d4c;
-	padding: 0.5em;
-}
-
-.hljs-emphasis {
-	font-style: italic;
-}
-
-.hljs-strong {
-	font-weight: bold;
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
 }
 </style>
-
-<style>
-/*
- * Markdown PDF CSS
- */
-
- body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
-	padding: 0 12px;
-}
-
-pre {
-	background-color: #f8f8f8;
-	border: 1px solid #cccccc;
-	border-radius: 3px;
-	overflow-x: auto;
-	white-space: pre-wrap;
-	overflow-wrap: break-word;
-}
-
-pre:not(.hljs) {
-	padding: 23px;
-	line-height: 19px;
-}
-
-blockquote {
-	background: rgba(127, 127, 127, 0.1);
-	border-color: rgba(0, 122, 204, 0.5);
-}
-
-.emoji {
-	height: 1.4em;
-}
-
-code {
-	font-size: 14px;
-	line-height: 19px;
-}
-
-/* for inline code */
-:not(pre):not(.hljs) > code {
-	color: #C9AE75; /* Change the old color so it seems less like an error */
-	font-size: inherit;
-}
-
-/* Page Break : use <div class="page"/> to insert page break
--------------------------------------------------------- */
-.page {
-	page-break-after: always;
-}
-
-</style>
-
-<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-</head>
-<body>
-  <script>
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
-          ? 'dark'
-          : 'default'
-    });
-  </script>
-<h1 id="philosophy-notes">Philosophy Notes</h1>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="philosophy-notes">Philosophy Notes</h1>
 <p>By <em><strong>Yuvraj Singh (210050172)</strong></em></p>
 <h2 id="1-what-is-philosophy">1. What is Philosophy</h2>
 <ul>
@@ -378,8 +53,8 @@ code {
 <p>Etymologically - <strong>φίλος</strong> (phílos: friend, or lover) and <strong>σοφία</strong> (sophía: wisdom).                     - Coined by <em>Pythagoras</em></p>
 </blockquote>
 <h3 id="11-indian-philosophy">1.1 Indian Philosophy</h3>
-<h4 id="111-three-terms-for-philosophy-in-india">1.1.1. Three terms for philosophy in India -</h4>
-<h5 id="1-anviksiki-%E0%A4%86%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95%E0%A5%80">1. <strong>Anviksiki</strong> {<em>आन्वीक्षिकी</em>} -</h5>
+<h4 id="111-three-terms-for-philosophy-in-india--">1.1.1. Three terms for philosophy in India -</h4>
+<h5 id="1-anviksiki-आन्वीक्षिकी--">1. <strong>Anviksiki</strong> {<em>आन्वीक्षिकी</em>} -</h5>
 <ul>
 <li><strong>Kautilya</strong> in his <em>Arthashastram</em> talks about the 4 types of knowledge (vidyas) that are
 <ul>
@@ -396,17 +71,17 @@ code {
 <p>प्रदीपः सर्वविद्यानाम् उपायः सर्वकर्मणाम् ।
 आश्रयः सर्वधर्माणां शश्वद् आन्वीक्ष्हिकी मता ||</p>
 </blockquote>
-<h5 id="2-darshan-%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A5%8D-%E2%80%93-to-see">2. Darshan {<em>दर्श् – to see</em>} -</h5>
+<h5 id="2-darshan-दर्श्--to-see--">2. Darshan {<em>दर्श् – to see</em>} -</h5>
 <ul>
 <li><strong>Vision of things</strong> or the <strong>insight</strong> into the nature of reality.</li>
 </ul>
-<h5 id="3-mata-%E0%A4%AE%E0%A4%A4">3. Mata {<em>मत</em>} -</h5>
+<h5 id="3-mata-मत--">3. Mata {<em>मत</em>} -</h5>
 <ul>
 <li>Mata means <strong>opinion</strong>, <strong>thought</strong>, and therefore a <em>doctrine</em> or a <em>theory</em>.</li>
 <li>Also used for the context of <em>religion</em> in India.</li>
 </ul>
-<h4 id="112-two-traditionsdivisions-of-indian-philosophy">1.1.2. Two traditions/divisions of Indian Philosophy -</h4>
-<h5 id="1-orthodox-system-astika-darshana">1. Orthodox System {<em>Astika Darshana</em>} :</h5>
+<h4 id="112-two-traditionsdivisions-of-indian-philosophy--">1.1.2. Two traditions/divisions of Indian Philosophy -</h4>
+<h5 id="1-orthodox-system-astika-darshana-">1. Orthodox System {<em>Astika Darshana</em>} :</h5>
 <ul>
 <li>Accept the <em>authority of the Vedas</em>.</li>
 <li>6 Orthodox Schools
@@ -420,7 +95,7 @@ code {
 </ol>
 </li>
 </ul>
-<h5 id="2-heterodox-system-nastika-darshana">2. Heterodox System {<em>Nastika Darshana</em>} :</h5>
+<h5 id="2-heterodox-system-nastika-darshana-">2. Heterodox System {<em>Nastika Darshana</em>} :</h5>
 <ul>
 <li>Reject the <em>authority of the Vedas</em>.</li>
 <li>3 Heterodox Schools
@@ -485,7 +160,7 @@ code {
 </ul>
 </li>
 </ul>
-<h3 id="c-ethics---ethikos-ethos-meaning-custom--character">c. Ethics - (<em>ethikos-ethos</em> meaning custom  / character)</h3>
+<h3 id="c-ethics---ethikos-ethos-meaning-custom---character">c. Ethics - (<em>ethikos-ethos</em> meaning custom  / character)</h3>
 <ul>
 <li>Ethics is the science of morals or that branch of philosophy which is concerned with human character and conduct.</li>
 <li>Deals with what is the proper course of action for man. It answers the question, <em>What do I do?</em> It is the <strong>study of right and wrong</strong> in human endeavors.</li>
@@ -495,7 +170,7 @@ code {
 <p>Many things come the way of human beings neither in the course of nature, nor after learning, but after habituation - <em>Eudemian Ethics by Aristotle</em></p>
 </blockquote>
 <hr>
-<h2 id="3-three-laws-of-thought">3. Three Laws of Thought -</h2>
+<h2 id="3-three-laws-of-thought--">3. Three Laws of Thought -</h2>
 <h3 id="a-the-law-of-identitypp">a. The Law of Identity{<em>p=p</em>}</h3>
 <ul>
 <li>Every statement of the form <em>p =&gt; p</em> is true.</li>
@@ -583,12 +258,12 @@ code {
 </li>
 </ul>
 <h3 id="421-the-middle-path-of-the-buddhaa-life">4.2.1 The Middle Path of the Buddha'a Life</h3>
-<h4 id="life-in-a-palace">Life in a Palace -</h4>
+<h4 id="life-in-a-palace--">Life in a Palace -</h4>
 <ul>
 <li>He was brought up as a prince in a royal palace, fully unknown from any trace of <em>suffering</em>.</li>
 <li>The Four Sights - {<em>Old age, Sickness, Death</em> and a <em>Religious Renouncer</em>} made him aware of suffering(1-3) and a possibility to get rid of it(4). So he left the palace to wander in the forest in search of truth. <strong>घर की मुर्ग़ी दाल बराबर ||</strong></li>
 </ul>
-<h4 id="life-in-the-forest">Life in the Forest -</h4>
+<h4 id="life-in-the-forest--">Life in the Forest -</h4>
 <ul>
 <li>In forest, he spent periods learning from two different teachers but was not satisfied with their teaching.</li>
 <li>He then met <em>5 ascetics</em>, who believed that practising austerities such as extreme fasting, bodily pain, etc would lead to rewards in a future life.</li>
@@ -604,7 +279,7 @@ code {
 <li>In 2^nd^ century AD, <strong>Nagarjuna</strong>, presented a very refined interpretation of middle-way and <em>Madhyamika</em> or middle-way school was formed.</li>
 </ul>
 <h3 id="423-the-middle-way-from-the-suttas">4.2.3 The Middle Way from the Suttas</h3>
-<h4 id="4231-the-middle-way-and-the-buddhas-%22silence%22">4.2.3.1 The Middle Way and the Buddha's &quot;Silence&quot;</h4>
+<h4 id="4231-the-middle-way-and-the-buddhas-silence">4.2.3.1 The Middle Way and the Buddha's &quot;Silence&quot;</h4>
 <ul>
 <li>The Buddha remained silent when he thought it would not be useful to answer metaphysical questions, and explained that metaphysical views were <em>unbeneficial, it does not belong to the fundamentals of the holy life.</em></li>
 </ul>
@@ -648,7 +323,7 @@ code {
 <li><strong>Hedonism -</strong> Pleasure is the highest good &amp; one should seek pleasure and avoid pain.</li>
 </ul>
 </blockquote>
-<h3 id="skepticism">Skepticism -</h3>
+<h3 id="skepticism--">Skepticism -</h3>
 <ul>
 <li>Etymologically - <em>SKEPSIS</em> &gt; examination/enquiry/consideration.</li>
 <li>It is a critical attitude which systematically <em>questions the notion</em> that absolute knowledge and certainty are possible.</li>
@@ -656,7 +331,7 @@ code {
 <li><em>Is there any diff. between knowing and dreaming</em> - Zhuang Zhou (Chuang Tzu).</li>
 <li>Skepticism =&gt; Assume nothing at all. i.e. <em>an object appears white or black, not that it is white or black.</em></li>
 </ul>
-<h3 id="431-charvakalokayata700-bc">4.3.1 Charvaka/Lokayata(700 BC -)</h3>
+<h3 id="431-charvakalokayata700-bc--">4.3.1 Charvaka/Lokayata(700 BC -)</h3>
 <ul>
 <li>Etymologically - <em>लोकायत</em> = <em>लोकेषु आयतः</em> &gt; Philosophy of the people.</li>
 <li>Also means philosophy of this-worldliness or materialism.</li>
@@ -675,13 +350,13 @@ code {
 </li>
 </ul>
 <h3 id="433-main-tenets-of-charvaka-philosophy">4.3.3 Main Tenets of Charvaka Philosophy</h3>
-<h4 id="1-naturalism-no-causality%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%AD%E0%A4%B5">1. Naturalism, No Causality(स्वभव)</h4>
+<h4 id="1-naturalism-no-causalityस्वभव">1. Naturalism, No Causality(स्वभव)</h4>
 <ul>
 <li>A thing by its nature (svabhava) comes into existence at a particular time without any cause. &gt; <strong>‘effect’ does not depend on any cause</strong>.</li>
 <li>Causality is an imaginary relation between antecedents and consequents, which are perceived together on many occasions.</li>
 <li>The sequence of two events perceived in the past on numerous occasions may fail in future under unforeseen circumstances.</li>
 </ul>
-<h4 id="2-perception-the-only-means-of-knowledge-denial-of-inference%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B7">2. Perception: the only means of Knowledge, Denial of Inference(प्रत्यक्ष)</h4>
+<h4 id="2-perception-the-only-means-of-knowledge-denial-of-inferenceप्रत्यक्ष">2. Perception: the only means of Knowledge, Denial of Inference(प्रत्यक्ष)</h4>
 <ul>
 <li>Perception gathered through 5 sense organs is either external or internal.</li>
 <li>Internal perception depends on external perception. i.e <em>Manas</em> depends on external sense organs.</li>
@@ -729,7 +404,7 @@ code {
 <li>Common to <em>Egoistic Hedonism of Aristippus</em> &gt; Emphasis on individual happiness and sensual pleasures.</li>
 <li>Much in common with <em>Epicureanism</em> &gt; ‘Innate’ human attitude is the pursuit of pleasure as the only positive value.</li>
 </ul>
-<h4 id="contribution-of-charvaka">Contribution of Charvaka -</h4>
+<h4 id="contribution-of-charvaka--">Contribution of Charvaka -</h4>
 <ul>
 <li>Helped Indian Philosophy from becoming too dogmatic and religious.</li>
 <li>Rationality took upper hand and superstitions and blind faith were challenged.</li>
@@ -779,7 +454,7 @@ code {
 <li>Acc. to Descartes, <strong>Philosophy = Tree, Metaphysics = Root, Trunk = Physics, All Other Sciences = Branches.</strong></li>
 </ul>
 <h4 id="points-of-descartes">Points of Descartes:</h4>
-<h4 id="1-cartesian-methodical-doubt">1. Cartesian Methodical Doubt-</h4>
+<h4 id="1-cartesian-methodical-doubt-">1. Cartesian Methodical Doubt-</h4>
 <ul>
 <li>To reach certainity, first overthrow all beliefs and doubt everything.</li>
 <li>Since, you are doubting, One thing is certain that you doubt/think. This leads to <strong>Cogito, ergo sum</strong> &gt; <em><strong>I think, therefore I am(I exist)</strong></em>.</li>
@@ -1030,6 +705,107 @@ dualism</em>.</li>
 </ul>
 <hr>
 <h2 id="6-logic">6. Logic</h2>
+<h3 id="1-what-is-logic">1. What is Logic?</h3>
+<ul>
+<li>Methods to ditinguish good reasoning from bad. Science of Reasoning.</li>
+</ul>
+<h3 id="2-basic-terms">2. Basic Terms</h3>
+<ul>
+<li><strong>Inference(अनुमान)-</strong> Process by which one propositon is arrived on the basis of one or more other propositions.</li>
+<li><strong>Proposition(तर्क-वाक्य)-</strong> Either true or false i.e can be asserted or denied. Different from sentences and is center to logic and independent of language.</li>
+<li><strong>Argument(युक्ति)-</strong> An argument is a group of propositions of which one(conclusion) is claimed to follow from others(premises).</li>
+<li><strong>Premises(आधार-वाक्य)-</strong> Propositions which provide support or reasons for accepting the conclusion are the premisses of the argument.</li>
+<li><strong>Conclusion(निष्कर्ष)-</strong> Proposition that is affirmed on the basis of the other propositions of the argument.</li>
+</ul>
+<h3 id="3-deduction-and-induction">3. Deduction and Induction</h3>
+<ul>
+<li>Arguments are traditionally divided into 2 different types:</li>
+</ul>
+<ol>
+<li><strong>Deductive Argument(निगमनात्मक युक्ति)-</strong> Premise provides conclusive grounds for the conclusion. Can be classified as valid or invalid depending on the reasoning.</li>
+<li><strong>Inductive Arguments(आगमनात्मक युक्ति)-</strong> Premises provide some support for the conclusion. Cannot be classified as valid or invalid.</li>
+</ol>
+<h3 id="4-truth-and-validity">4. Truth and Validity</h3>
+<ul>
+<li><strong>Truth and Falsehood</strong> are predicated of propositions.</li>
+<li><strong>Validity and Invalidity</strong> belong to Deductive Arguments.</li>
+</ul>
+<h3 id="5-fallacy">5. Fallacy</h3>
+<ul>
+<li><strong>Error in Reasoning</strong></li>
+</ul>
+<h4 id="51-the-argument-from-ignorance-argumentum-ad-ignoratiam">5.1 The Argument from Ignorance (Argumentum ad ignoratiam):</h4>
+<ul>
+<li>When argued that a proposition is true as it is not proved false and vice versa. E.g. Accused in Criminal Court</li>
+</ul>
+<h4 id="52-the-appeal-to-inappropriate-authority-argumentum-ad-verecundiam">5.2 The Appeal to Inappropriate Authority (Argumentum ad verecundiam):</h4>
+<ul>
+<li>When the appeal is made to parties having no legitimate claim to authority in the matter at hand. E.g. Virat Kohli selling MRF Tyres.</li>
+</ul>
+<h4 id="53-complex-question">5.3 Complex Question:</h4>
+<ul>
+<li>Asking a question in such a way as to presuppose the truth of some conclusion buried in that question. E.g. Lawyers in Courts use these.</li>
+</ul>
+<h4 id="54-argumentum-ad-hominem">5.4 Argumentum ad Hominem:</h4>
+<ul>
+<li>Fallacious attack in which the thrust is directed, not a conclusion, but at the person who asserts or defends it.</li>
+</ul>
+<h4 id="55-begging-the-question-petitio-principii">5.5 Begging the Question (Petitio Principii):</h4>
+<ul>
+<li>When one assumes in the premisses the truth of what one seeks to establish in the conclusion, the fallacy of begging the question is committed. E.g. Bible =&gt; God &amp; God said Bible so it is true.</li>
+</ul>
+<h4 id="56-the-appeal-to-emotion-argumentum-ad-populum">5.6 The Appeal to Emotion (Argumentum ad Populum):</h4>
+<ul>
+<li>It is fallacious because it replaces the laborious task of presenting evidence and rational argument with expressive language and other devices calculated to excite enthusiasm, excitement, anger, or hate. E.g. Hitler</li>
+</ul>
+<h4 id="57-the-appeal-to-pity-argumentum-ad-misericordiam">5.7 The Appeal to Pity (Argumentum ad Misericordiam):</h4>
+<ul>
+<li>Special case of appeal to emotion, in which the compassion, sympathy and altruism of the audience are the special emotions appealed to. E.g. Court proceedings</li>
+</ul>
+<h3 id="6-categorical-propositions">6. Categorical Propositions</h3>
+<h4 id="61-deductive-argument">6.1 Deductive Argument:</h4>
+<ul>
+<li>Premise provides conclusive grounds for the conclusion. Can be classified as valid or invalid.</li>
+</ul>
+<h4 id="62-categorical-propositions">6.2 Categorical propositions:</h4>
+<ul>
+<li>Propositions dealing with <em>Class(वर्ग)</em>.</li>
+<li><strong>Class</strong> is a collection of objects having some specified characteristics in common. Various ways in which classes may be related:</li>
+</ul>
+<ol>
+<li><strong>Included/Contained-</strong> A is a subset of B.</li>
+<li><strong>Parially Contained-</strong> A intersection B not equals phi.</li>
+<li><strong>No members in Common-</strong> A intersection B = phi.</li>
+</ol>
+<h4 id="63-four-different-standard-forms-of-categorical-propositions">6.3 Four Different Standard Forms of Categorical Propositions:</h4>
+<ul>
+<li><strong>Universal Affirmative Proposition:(A)</strong> All S is P. S subset of P.</li>
+<li><strong>Universal Negative Proposition:(E)</strong> No S is P. S intersection P = phi.</li>
+<li><strong>Particular Affirmative Proposition:(I)</strong> Some S is P. S interesection P not equals phi.</li>
+<li><strong>Particular Negative Proposition:(O)</strong> Some S is not P. Not S intersection P not equals phi.</li>
+</ul>
+<h3 id="7-categorical-syllogism">7. Categorical Syllogism</h3>
+<ul>
+<li><strong>Syllogism</strong> is a deductive argument in which a conclusion is inferred from two premises.</li>
+<li><strong>Categorical Syllogism</strong> is a deductive argument containing 3 categorical propositions in which each term occurs in exactly 2 propositions.</li>
+<li><strong>Major Term:</strong> Predicate Term of Conclusion</li>
+<li><strong>Minor Term:</strong> Subject Term of Conclusion</li>
+<li><strong>Middle Term:</strong> Term that does not occur in the Conclusion.</li>
+<li><strong>Major Premise and Minor Premise</strong> are premise containing major and minor term respectively.</li>
+<li><strong>Mood</strong> Three Letters indicating the types of categorical propositions.</li>
+</ul>
+<h3 id="8-induction">8. Induction</h3>
+<ul>
+<li>Premises provide some support for the conclusion. Cannot be classified as valid or invalid.</li>
+<li>Most commonly used type is argument by analogy. E.g. Life on Earth predicts Life on other planets of Solar System by some probability.</li>
+</ul>
+<hr>
+<h2 id="7-metaphysics">7. Metaphysics</h2>
+<ul>
+<li></li>
+</ul>
 
-</body>
-</html>
+        
+        
+    </body>
+    </html>
